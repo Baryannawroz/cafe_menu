@@ -5,8 +5,7 @@
 // Salads
 // Sandwiches
 // Burgers
-// Desserts
-// Mojito
+// Desserts// Mojito
 // Soft Drinks
 const menuItems = [
      { name: "Espresso", ingredients: "water,coffee", price: "3000", imageUrl: "assets/img/menu/cupOfCoffe.png", category: "hot-drink" },
@@ -39,7 +38,7 @@ const menuItems = [
     { name: "Black Tea", ingredients: "", price: "3000", imageUrl: "assets/img/menu/cupOfCoffe.png", category: "hot-drink" },
     { name: "Caramel Tea", ingredients: "", price: "3000", imageUrl: "assets/img/menu/cupOfCoffe.png", category: "hot-drink" },
     { name: "Green Tea", ingredients: "", price: "3000", imageUrl: "assets/img/menu/cupOfCoffe.png", category: "hot-drink" },
-    { name: "Karak Chai (Pakistani Tea)", ingredients: "", price: "3000", imageUrl: "assets/img/menu/cupOfCoffe.png", category: "hot-drink" }
+    { name: "Karak Chai (Pakistani Tea)", ingredients: "", price: "3000", imageUrl: "assets/img/menu/cupOfCoffe.png", category: "hot-drink" },
 
 ];
 

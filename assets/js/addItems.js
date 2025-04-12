@@ -40,13 +40,13 @@ const categories = [
 const menuItems = [
    
   // ICE COFFEE
-  { name: "Iced Latte", ingredients: "", price: "5000", imageUrl: "assets/img/menu/", category: "ice-coffee" },
-  { name: "Iced Capucino", ingredients: "", price: "5000", imageUrl: "", category: "ice-coffee" },
-  { name: "Iced Mokachino", ingredients: "", price: "5000", imageUrl: "", category: "ice-coffee" },
-  { name: "Iced Crema Milk", ingredients: "", price: "6000", imageUrl: "", category: "ice-coffee" },
-  { name: "Iced Chocolate", ingredients: "", price: "4000", imageUrl: "", category: "ice-coffee" },
-  { name: "Iced Americano", ingredients: "", price: "4000", imageUrl: "", category: "ice-coffee" },
-  { name: "Frappuccino", ingredients: "", price: "6000", imageUrl: "", category: "ice-coffee" },
+  { name: "Iced Latte", ingredients: "", price: "5000", imageUrl: "assets/img/menu/1.png", category: "ice-coffee" },
+  { name: "Iced Capucino", ingredients: "", price: "5000", imageUrl: "assets/img/menu/2.png", category: "ice-coffee" },
+  { name: "Iced Mokachino", ingredients: "", price: "5000", imageUrl: "assets/img/menu/3.png", category: "ice-coffee" },
+  { name: "Iced Crema Milk", ingredients: "", price: "6000", imageUrl: "assets/img/menu/4.png", category: "ice-coffee" },
+  { name: "Iced Chocolate", ingredients: "", price: "4000", imageUrl: "assets/img/menu/5.png", category: "ice-coffee" },
+  { name: "Iced Americano", ingredients: "", price: "4000", imageUrl: "assets/img/menu/6.png", category: "ice-coffee" },
+  { name: "Frappuccino", ingredients: "", price: "6000", imageUrl: "assets/img/menu/7.png", category: "ice-coffee" },
 
   // FRESH JUICES
   { name: "Orange", ingredients: "", price: "4000", imageUrl: "", category: "fresh-juices" },

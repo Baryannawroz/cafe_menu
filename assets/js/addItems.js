@@ -155,56 +155,56 @@ const menuItems = [
     name: { en: "Vanilla", kr: "ڤانێلا" },
     ingredients: "",
     price: "5000",
-    imageUrl: "",
+    imageUrl: "assets/img/menu/21.png",
     category: "milk-shakes"
   },
   {
     name: { en: "Chocolate", kr: "چۆکۆلێت" },
     ingredients: "",
     price: "5000",
-    imageUrl: "",
+    imageUrl: "assets/img/menu/22.png",
     category: "milk-shakes"
   },
   {
     name: { en: "Pistachio", kr: "فستق" },
     ingredients: "",
     price: "5000",
-    imageUrl: "",
+    imageUrl: "assets/img/menu/23.png",
     category: "milk-shakes"
   },
   {
     name: { en: "Strawberry", kr: "شلیک" },
     ingredients: "",
     price: "5000",
-    imageUrl: "",
+    imageUrl: "assets/img/menu/24.png",
     category: "milk-shakes"
   },
   {
     name: { en: "Kinder", kr: "کیندەر" },
     ingredients: "",
     price: "5000",
-    imageUrl: "",
+    imageUrl: "assets/img/menu/25.png",
     category: "milk-shakes"
   },
   {
     name: { en: "Cherry", kr: "گێلاس" },
     ingredients: "",
     price: "5000",
-    imageUrl: "",
+    imageUrl: "assets/img/menu/26.png",
     category: "milk-shakes"
   },
   {
     name: { en: "Chocolate Mint", kr: "چۆکلێت بە نەعناع" },
     ingredients: "",
     price: "5000",
-    imageUrl: "",
+    imageUrl: "assets/img/menu/27.png",
     category: "milk-shakes"
   },
   {
     name: { en: "Coffee Shake", kr: "کۆفی شەیک" },
     ingredients: "",
     price: "6000",
-    imageUrl: "",
+    imageUrl: "assets/img/menu/28.png",
     category: "milk-shakes"
   },
   {

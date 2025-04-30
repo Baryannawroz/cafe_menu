@@ -54,437 +54,77 @@ const menuItems = [
   { name: { en: "Iced Crema Milk", kr: "ئایس کرێما مێڵک" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/4.png", category: "ice-coffee" },
   { name: { en: "Iced Chocolate", kr: "ئایس چۆکلێت" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/5.png", category: "ice-coffee" },
   { name: { en: "Iced Americano", kr: "ئایس ئەمریکانۆ" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/6.png", category: "ice-coffee" },
-  { name: { en: "Frappuccino", kr: "فراپەچینۆ" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/7.png", category: "ice-coffee" }
-,
-  {
-    name: {
-      en: "Orange",
-      kr: "پرتەقاڵ"
-    },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "assets/img/menu/8.png",
-    category: "fresh-juices"
-  },
-  {
-    name: {
-      en: "Pineapple",
-      kr: "ئەناناس"
-    },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "assets/img/menu/9.png",
-    category: "fresh-juices"
-  },
-  {
-    name: {
-      en: "Banana Milk",
-      kr: "شیرمۆز"
-    },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "assets/img/menu/10.png",
-    category: "fresh-juices"
-  },
-  {
-    name: {
-      en: "Banana Strawberry",
-      kr: "شلیک و مۆز"
-    },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "assets/img/menu/11.png",
-    category: "fresh-juices"
-  },
-  {
-    name: {
-      en: "Lemon",
-      kr: "لەیمۆ"
-    },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "assets/img/menu/12.png",
-    category: "fresh-juices"
-  },
-  {
-    name: {
-      en: "Lemon Mint",
-      kr: "لەیمۆ و نەعناع"
-    },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "assets/img/menu/13.png",
-    category: "fresh-juices"
-  },
-  {
-    name: {
-      en: "Green Apple",
-      kr: "سێوەی سەوز"
-    },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "assets/img/menu/14.png",
-    category: "fresh-juices"
-  },
-  {
-    name: {
-      en: "Pomegranate",
-      kr: "هەنار"
-    },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "assets/img/menu/15.png",
-    category: "fresh-juices"
-  },
-  {
-    name: {
-      en: "Melon",
-      kr: "کاڵەک"
-    },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "assets/img/menu/16.png",
-    category: "fresh-juices"
-  },
+  { name: { en: "Frappuccino", kr: "فراپەچینۆ" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/7.png", category: "ice-coffee" },
+
+  // milk shake
+
+  { name: { en: "Vanilla", kr: "ڤانێلا" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/21.png", category: "milk-shakes" },
+{ name: { en: "Chocolate", kr: "چۆکۆلێت" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/22.png", category: "milk-shakes" },
+{ name: { en: "Pistachio", kr: "فستق" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/23.png", category: "milk-shakes" },
+{ name: { en: "Strawberry", kr: "شلیک" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/24.png", category: "milk-shakes" },
+{ name: { en: "Kinder", kr: "کیندەر" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/25.png", category: "milk-shakes" },
+{ name: { en: "Cherry", kr: "گێلاس" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/26.png", category: "milk-shakes" },
+{ name: { en: "Chocolate Mint", kr: "چۆکلێت بە نەعناع" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/27.png", category: "milk-shakes" },
+{ name: { en: "Coffee Shake", kr: "کۆفی شەیک" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/28.png", category: "milk-shakes" },
+  { name: { en: "Blue Special", kr: "بلوو تایبەت" }, ingredients: "", price: "7000", imageUrl: "assets/img/menu/212.png", category: "milk-shakes" },
+
+  // desserts
+{ name: { en: "Chocolate Cake", kr: "چۆکۆلێت کەیک" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/31.png", category: "desserts" },
+{ name: { en: "Raspberry Cheesecake", kr: "ڕاسبێری چیزکەیک" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/32.png", category: "desserts" },
+{ name: { en: "Fondant", kr: "فاوندانت" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/33.png", category: "desserts" },
+{ name: { en: "Brownie", kr: "براونی" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/34.png", category: "desserts" },
+{ name: { en: "Lotus Milk Cake", kr: "لۆتوس میڵک کەیک" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/35.png", category: "desserts" },
+{ name: { en: "Tiramisu", kr: "ترامیسۆ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/36.png", category: "desserts" },
+{ name: { en: "Latte Cake", kr: "لاتێ کەیک" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/37.png", category: "desserts" },
+{ name: { en: "Red Velvet", kr: "ڕێد ڤالڤێت" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/38.png", category: "desserts" },
+{ name: { en: "Crepe", kr: "کڕێپ" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/39.png", category: "desserts" },
+{ name: { en: "Fruit Pancakes", kr: "فرووت پانکەیک" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/310.png", category: "desserts" },
+{ name: { en: "Croissant", kr: "کراوسۆن" }, ingredients: "", price: "3000", imageUrl: "assets/img/menu/311.png", category: "desserts" },
+{ name: { en: "Cinnamon Roll", kr: "سینمۆن ڕۆڵ" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/312.png", category: "desserts" },
 
 
+// fresh juices
+ { name: { en: "Orange", kr: "پرتەقاڵ" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/41.png", category: "fresh-juices" },
+{ name: { en: "Pineapple", kr: "ئەناناس" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/42.png", category: "fresh-juices" },
+{ name: { en: "Banana Strawberry", kr: "شلیک و مۆز" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/43.png", category: "fresh-juices" },
+{ name: { en: "Banana Milk", kr: "شیرمۆز" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/44.png", category: "fresh-juices" },
+{ name: { en: "Lemon", kr: "لەیمۆ" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/45.png", category: "fresh-juices" },
+{ name: { en: "Lemon Mint", kr: "لەیمۆ و نەعناع" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/46.png", category: "fresh-juices" },
+{ name: { en: "Green Apple", kr: "سێوەی سەوز" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/47.png", category: "fresh-juices" },
+{ name: { en: "Melon", kr: "کاڵەک" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/48.png", category: "fresh-juices" },
+  { name: { en: "Pomegranate", kr: "هەنار" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/49.png", category: "fresh-juices" },
 
- // MILK SHAKES
-
-  {
-    name: { en: "Vanilla", kr: "ڤانێلا" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "assets/img/menu/21.png",
-    category: "milk-shakes"
-  },
-  {
-    name: { en: "Chocolate", kr: "چۆکۆلێت" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "assets/img/menu/22.png",
-    category: "milk-shakes"
-  },
-  {
-    name: { en: "Pistachio", kr: "فستق" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "assets/img/menu/23.png",
-    category: "milk-shakes"
-  },
-  {
-    name: { en: "Strawberry", kr: "شلیک" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "assets/img/menu/24.png",
-    category: "milk-shakes"
-  },
-  {
-    name: { en: "Kinder", kr: "کیندەر" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "assets/img/menu/25.png",
-    category: "milk-shakes"
-  },
-  {
-    name: { en: "Cherry", kr: "گێلاس" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "assets/img/menu/26.png",
-    category: "milk-shakes"
-  },
-  {
-    name: { en: "Chocolate Mint", kr: "چۆکلێت بە نەعناع" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "assets/img/menu/27.png",
-    category: "milk-shakes"
-  },
-  {
-    name: { en: "Coffee Shake", kr: "کۆفی شەیک" },
-    ingredients: "",
-    price: "6000",
-    imageUrl: "assets/img/menu/28.png",
-    category: "milk-shakes"
-  },
-  {
-    name: { en: "Blue Special", kr: "بلوو تایبەت" },
-    ingredients: "",
-    price: "7000",
-    imageUrl: "",
-    category: "milk-shakes"
-  },
-
-  // SOFT DRINKS
-
-  {
-    name: { en: "Water", kr: "ئاوی" },
-    ingredients: "",
-    price: "500",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-  {
-    name: { en: "Fresh Soda", kr: "سۆدا" },
-    ingredients: "",
-    price: "1000",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-  {
-    name: { en: "Tonic Soda", kr: "سۆدا تۆنیک" },
-    ingredients: "",
-    price: "2000",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-  {
-    name: { en: "Fresh Pepsi", kr: "پێپسی فرێش" },
-    ingredients: "",
-    price: "1000",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-  {
-    name: { en: "Pepsi", kr: "پەپسی" },
-    ingredients: "",
-    price: "1000",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-  {
-    name: { en: "Sprite", kr: "سپرايت" },
-    ingredients: "",
-    price: "1000",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-  {
-    name: { en: "Dew", kr: "دیو" },
-    ingredients: "",
-    price: "1000",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-  {
-    name: { en: "Miranda", kr: "میراندە" },
-    ingredients: "",
-    price: "1000",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-  {
-    name: { en: "Redbull", kr: "ڕێدبۆڵ" },
-    ingredients: "",
-    price: "3000",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-  {
-    name: { en: "Mexican Red Bull", kr: "رێدبەڵی مەکسیك" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "soft-drinks"
-  },
-
+  // soft drink
+{ name: { en: "Water", kr: "ئاوی" }, ingredients: "", price: "500", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Fresh Soda", kr: "سۆدا" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Tonic Soda", kr: "سۆدا تۆنیک" }, ingredients: "", price: "2000", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Fresh Pepsi", kr: "پێپسی فرێش" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Pepsi", kr: "پەپسی" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Sprite", kr: "سپرايت" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Dew", kr: "دیو" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Miranda", kr: "میراندە" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Redbull", kr: "ڕێدبۆڵ" }, ingredients: "", price: "3000", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Mexican Red Bull", kr: "رێدبەڵی مەکسیك" }, ingredients: "", price: "5000", imageUrl: "", category: "soft-drinks" },
 
   // FRAPPES
+{ name: { en: "Greek Frappe", kr: "فراپەی یۆنانی" }, ingredients: "", price: "5000", imageUrl: "", category: "frappes" },
+{ name: { en: "Matcha Frappe", kr: "فراپەی ماچا" }, ingredients: "", price: "6000", imageUrl: "", category: "frappes" },
+  { name: { en: "Pistachio Frappe", kr: "فراپێ پیستاشیۆ" }, ingredients: "", price: "6000", imageUrl: "", category: "frappes" },
+// mocktail
+{ name: { en: "Pineapple Ginger", kr: "پایناپڵ جینجەر" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
+{ name: { en: "Mixed Berries", kr: "میکسد بێریس" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
+{ name: { en: "Mango Mule", kr: "مانگۆ مۆڵ" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
+{ name: { en: "Lavender Lemonade", kr: "لاڤندەر لیمۆنەید " }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
+{ name: { en: "Coconut Lime Fizz", kr: "کۆکۆنەت  لایم ڤز" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
+  { name: { en: "Your Choice", kr: "خواستی تۆ" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
+// mojito
+{ name: { en: "Classic Mojito", kr: "کلاسیک مۆهیتۆ" }, ingredients: "", price: "4000", imageUrl: "", category: "mojito" },
+{ name: { en: "Strawberry Mojito", kr: "سترۆبێری مۆهیتۆ" }, ingredients: "", price: "5000", imageUrl: "", category: "mojito" },
+{ name: { en: "Kiwi Mojito", kr: "موهیتۆ کیوی" }, ingredients: "", price: "5000", imageUrl: "", category: "mojito" },
+{ name: { en: "Peach Ice Tea", kr: "ئایس تی قۆخ" }, ingredients: "", price: "5000", imageUrl: "", category: "mojito" },
+  { name: { en: "Lemon Ice Tea", kr: "ئایس یی لیمۆ" }, ingredients: "", price: "5000", imageUrl: "", category: "mojito" },
 
-  {
-    name: { en: "Greek Frappe", kr: "فراپەی یۆنانی" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "frappes"
-  },
-  {
-    name: { en: "Matcha Frappe", kr: "فراپەی ماچا" },
-    ingredients: "",
-    price: "6000",
-    imageUrl: "",
-    category: "frappes"
-  },
-  {
-    name: { en: "Pistachio Frappe", kr: "فراپێ پیستاشیۆ" },
-    ingredients: "",
-    price: "6000",
-    imageUrl: "",
-    category: "frappes"
-  }
-,
-  // MOCKTAIL
 
-  {
-    name: { en: "Pineapple Ginger", kr: "پایناپڵ جینجەر" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mocktail"
-  },
-  {
-    name: { en: "Mixed Berries", kr: "میکسد بێریس" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mocktail"
-  },
-  {
-    name: { en: "Mango Mule", kr: "مانگۆ مۆڵ" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mocktail"
-  },
-  {
-    name: { en: "Lavender Lemonade", kr: "لاڤندەر لیمۆنەید " },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mocktail"
-  },
-  {
-    name: { en: "Coconut Lime Fizz", kr: "کۆکۆنەت  لایم ڤز" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mocktail"
-  },
-  {
-    name: { en: "Your Choice", kr: "خواستی تۆ" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mocktail"
-  }
-,
-  // MOJITO
-
-  {
-    name: { en: "Classic Mojito", kr: "کلاسیک مۆهیتۆ" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "mojito"
-  },
-  {
-    name: { en: "Strawberry Mojito", kr: "سترۆبێری مۆهیتۆ" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mojito"
-  },
-  {
-    name: { en: "Kiwi Mojito", kr: "موهیتۆ کیوی" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mojito"
-  },
-
-  // ICE TEA
-
-  {
-    name: { en: "Peach Ice Tea", kr: "ئایس تی قۆخ" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mojito"
-  },
-  {
-    name: { en: "Lemon Ice Tea", kr: "ئایس یی لیمۆ" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "mojito"
-  },
-
-  // DESSERTS
-  {
-    name: { en: "Chocolate Cake", kr: "چۆکۆلێت کەیک" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Raspberry Cheesecake", kr: "ڕاسبێری چیزکەیک" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Fondant", kr: "فاوندانت" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Brownie", kr: "براونی" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Lotus Milk Cake", kr: "لۆتوس میڵک کەیک" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Tiramisu", kr: "ترامیسۆ" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Latte Cake", kr: "لاتێ کەیک" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Red Velvet", kr: "ڕێد ڤالڤێت" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Crepe", kr: "کڕێپ" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Fruit Pancakes", kr: "فرووت پانکەیک" },
-    ingredients: "",
-    price: "5000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Croissant", kr: "کراوسۆن" },
-    ingredients: "",
-    price: "3000",
-    imageUrl: "",
-    category: "desserts"
-  },
-  {
-    name: { en: "Cinnamon Roll", kr: "سینمۆن ڕۆڵ" },
-    ingredients: "",
-    price: "4000",
-    imageUrl: "",
-    category: "desserts"
-  }
-,
 
   // Coffee
 

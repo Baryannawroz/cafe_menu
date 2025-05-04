@@ -95,34 +95,34 @@ const menuItems = [
   { name: { en: "Pomegranate", kr: "هەنار" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/49.png", category: "fresh-juices" },
 
   // soft drink
-{ name: { en: "Water", kr: "ئاوی" }, ingredients: "", price: "500", imageUrl: "", category: "soft-drinks" },
-{ name: { en: "Fresh Soda", kr: "سۆدا" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
-{ name: { en: "Tonic Soda", kr: "سۆدا تۆنیک" }, ingredients: "", price: "2000", imageUrl: "", category: "soft-drinks" },
-{ name: { en: "Fresh Pepsi", kr: "پێپسی فرێش" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
-{ name: { en: "Pepsi", kr: "پەپسی" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
-{ name: { en: "Sprite", kr: "سپرايت" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
-{ name: { en: "Dew", kr: "دیو" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
-{ name: { en: "Miranda", kr: "میراندە" }, ingredients: "", price: "1000", imageUrl: "", category: "soft-drinks" },
-{ name: { en: "Redbull", kr: "ڕێدبۆڵ" }, ingredients: "", price: "3000", imageUrl: "", category: "soft-drinks" },
-{ name: { en: "Mexican Red Bull", kr: "رێدبەڵی مەکسیك" }, ingredients: "", price: "5000", imageUrl: "", category: "soft-drinks" },
+{ name: { en: "Water", kr: "ئاوی" }, ingredients: "", price: "500", imageUrl: "assets/img/menu/soft-drinks/1.png", category: "soft-drinks" },
+{ name: { en: "Fresh Soda", kr: "سۆدا" }, ingredients: "", price: "1000", imageUrl: "assets/img/menu/soft-drinks/2.png", category: "soft-drinks" },
+{ name: { en: "Tonic Soda", kr: "سۆدا تۆنیک" }, ingredients: "", price: "2000", imageUrl: "assets/img/menu/soft-drinks/3.png", category: "soft-drinks" },
+{ name: { en: "Fresh Pepsi", kr: "پێپسی فرێش" }, ingredients: "", price: "1000", imageUrl: "assets/img/menu/soft-drinks/4.png", category: "soft-drinks" },
+{ name: { en: "Pepsi", kr: "پەپسی" }, ingredients: "", price: "1000", imageUrl: "assets/img/menu/soft-drinks/5.png", category: "soft-drinks" },
+{ name: { en: "Sprite", kr: "سپرايت" }, ingredients: "", price: "1000", imageUrl: "assets/img/menu/soft-drinks/6.png", category: "soft-drinks" },
+{ name: { en: "Dew", kr: "دیو" }, ingredients: "", price: "1000", imageUrl: "assets/img/menu/soft-drinks/7.png", category: "soft-drinks" },
+{ name: { en: "Miranda", kr: "میراندە" }, ingredients: "", price: "1000", imageUrl: "assets/img/menu/soft-drinks/8.png", category: "soft-drinks" },
+{ name: { en: "Redbull", kr: "ڕێدبۆڵ" }, ingredients: "", price: "3000", imageUrl: "assets/img/menu/soft-drinks/9.png", category: "soft-drinks" },
+{ name: { en: "Mexican Red Bull", kr: "رێدبەڵی مەکسیك" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/soft-drinks/10.png", category: "soft-drinks" },
 
   // FRAPPES
-{ name: { en: "Greek Frappe", kr: "فراپەی یۆنانی" }, ingredients: "", price: "5000", imageUrl: "", category: "frappes" },
-{ name: { en: "Matcha Frappe", kr: "فراپەی ماچا" }, ingredients: "", price: "6000", imageUrl: "", category: "frappes" },
-  { name: { en: "Pistachio Frappe", kr: "فراپێ پیستاشیۆ" }, ingredients: "", price: "6000", imageUrl: "", category: "frappes" },
+{ name: { en: "Greek Frappe", kr: "فراپەی یۆنانی" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/frappes/1.png", category: "frappes" },
+{ name: { en: "Matcha Frappe", kr: "فراپەی ماچا" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/frappes/2.png", category: "frappes" },
+  { name: { en: "Pistachio Frappe", kr: "فراپێ پیستاشیۆ" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/frappes/3.png", category: "frappes" },
 // mocktail
-{ name: { en: "Pineapple Ginger", kr: "پایناپڵ جینجەر" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
-{ name: { en: "Mixed Berries", kr: "میکسد بێریس" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
-{ name: { en: "Mango Mule", kr: "مانگۆ مۆڵ" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
-{ name: { en: "Lavender Lemonade", kr: "لاڤندەر لیمۆنەید " }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
-{ name: { en: "Coconut Lime Fizz", kr: "کۆکۆنەت  لایم ڤز" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
-  { name: { en: "Your Choice", kr: "خواستی تۆ" }, ingredients: "", price: "5000", imageUrl: "", category: "mocktail" },
+{ name: { en: "Pineapple Ginger", kr: "پایناپڵ جینجەر" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mocktail/1.png", category: "mocktail" },
+{ name: { en: "Mixed Berries", kr: "میکسد بێریس" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mocktail/2.png", category: "mocktail" },
+{ name: { en: "Mango Mule", kr: "مانگۆ مۆڵ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mocktail/3.png", category: "mocktail" },
+{ name: { en: "Lavender Lemonade", kr: "لاڤندەر لیمۆنەید " }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mocktail/4.png", category: "mocktail" },
+{ name: { en: "Coconut Lime Fizz", kr: "کۆکۆنەت  لایم ڤز" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mocktail/5.png", category: "mocktail" },
+  { name: { en: "Your Choice", kr: "خواستی تۆ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mocktail/6.png", category: "mocktail" },
 // mojito
-{ name: { en: "Classic Mojito", kr: "کلاسیک مۆهیتۆ" }, ingredients: "", price: "4000", imageUrl: "", category: "mojito" },
-{ name: { en: "Strawberry Mojito", kr: "سترۆبێری مۆهیتۆ" }, ingredients: "", price: "5000", imageUrl: "", category: "mojito" },
-{ name: { en: "Kiwi Mojito", kr: "موهیتۆ کیوی" }, ingredients: "", price: "5000", imageUrl: "", category: "mojito" },
-{ name: { en: "Peach Ice Tea", kr: "ئایس تی قۆخ" }, ingredients: "", price: "5000", imageUrl: "", category: "mojito" },
-  { name: { en: "Lemon Ice Tea", kr: "ئایس یی لیمۆ" }, ingredients: "", price: "5000", imageUrl: "", category: "mojito" },
+{ name: { en: "Classic Mojito", kr: "کلاسیک مۆهیتۆ" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/mojito/1.png", category: "mojito" },
+{ name: { en: "Strawberry Mojito", kr: "سترۆبێری مۆهیتۆ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mojito/2.png", category: "mojito" },
+{ name: { en: "Kiwi Mojito", kr: "موهیتۆ کیوی" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mojito/3.png", category: "mojito" },
+{ name: { en: "Peach Ice Tea", kr: "ئایس تی قۆخ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mojito/4.png", category: "mojito" },
+  { name: { en: "Lemon Ice Tea", kr: "ئایس یی لیمۆ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/mojito/5.png", category: "mojito" },
 
 
 
@@ -164,37 +164,37 @@ const menuItems = [
 ,
   // Main Dishes
 
-  { name: { en: "Chicken Biryani", kr: "بریانی  مریشک" }, ingredients: "", price: "7000", imageUrl: "", category: "main-dishes" },
-  { name: { en: "Meat Biryani", kr: "بریانی گوشت" }, ingredients: "", price: "9000", imageUrl: "", category: "main-dishes" },
-  { name: { en: "Chicken Steak", kr: "ستەیکی مریشک" }, ingredients: "", price: "6000", imageUrl: "", category: "main-dishes" },
-  { name: { en: "Dite Meal", kr: "خواردنی دایت" }, ingredients: "", price: "6000", imageUrl: "", category: "main-dishes" },
-  { name: { en: "Chicken Chilly Fry", kr: " چلفرای مریشک" }, ingredients: "", price: "7000", imageUrl: "", category: "main-dishes" },
-  { name: { en: "Meat Chilly Fry", kr: "چلفرای گوشت " }, ingredients: "", price: "9000", imageUrl: "", category: "main-dishes" },
-  { name: { en: "Alfredo Pasta", kr: "پاستای ئەلفریدو" }, ingredients: "", price: "7000", imageUrl: "", category: "main-dishes" },
-  { name: { en: "Fries", kr: "فڕایس" }, ingredients: "", price: "3000", imageUrl: "", category: "main-dishes" },
-  { name: { en: "Cheese Fries", kr: "چیز فڕایس" }, ingredients: "", price: "4500", imageUrl: "", category: "main-dishes" }
+  { name: { en: "Chicken Biryani", kr: "بریانی  مریشک" }, ingredients: "", price: "7000", imageUrl: "assets/img/menu/main-dishes/1.png", category: "main-dishes" },
+  { name: { en: "Meat Biryani", kr: "بریانی گوشت" }, ingredients: "", price: "9000", imageUrl: "assets/img/menu/main-dishes/2.png", category: "main-dishes" },
+  { name: { en: "Chicken Steak", kr: "ستەیکی مریشک" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/main-dishes/3.png", category: "main-dishes" },
+  { name: { en: "Dite Meal", kr: "خواردنی دایت" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/main-dishes/4.png", category: "main-dishes" },
+  { name: { en: "Chicken Chilly Fry", kr: " چلفرای مریشک" }, ingredients: "", price: "7000", imageUrl: "assets/img/menu/main-dishes/5.png", category: "main-dishes" },
+  { name: { en: "Meat Chilly Fry", kr: "چلفرای گوشت " }, ingredients: "", price: "9000", imageUrl: "assets/img/menu/main-dishes/6.png", category: "main-dishes" },
+  { name: { en: "Alfredo Pasta", kr: "پاستای ئەلفریدو" }, ingredients: "", price: "7000", imageUrl: "assets/img/menu/main-dishes/7.png", category: "main-dishes" },
+  { name: { en: "Fries", kr: "فڕایس" }, ingredients: "", price: "3000", imageUrl: "assets/img/menu/main-dishes/8.png", category: "main-dishes" },
+  { name: { en: "Cheese Fries", kr: "چیز فڕایس" }, ingredients: "", price: "4500", imageUrl: "assets/img/menu/main-dishes/9.png", category: "main-dishes" }
 ,
 
   // Sandwiches
 
-  { name: { en: "Chicken Sandwich", kr: "ساندویچی مریشک" }, ingredients: "", price: "5000", imageUrl: "", category: "sandwiches" },
-  { name: { en: "Chicken Cheese Sandwich", kr: "ساندویچی مریشک بە پەنیر" }, ingredients: "", price: "6000", imageUrl: "", category: "sandwiches" },
-  { name: { en: "Beef Sandwich", kr: "ساندویچی گوشت" }, ingredients: "", price: "7000", imageUrl: "", category: "sandwiches" },
-  { name: { en: "Beef Cheese Sandwich", kr: "ساندویچی گوشت و پەنیری" }, ingredients: "", price: "8000", imageUrl: "", category: "sandwiches" },
-  { name: { en: "Chicken Steak Sandwich", kr: "ساندویچی ستەیکی  مریشک" }, ingredients: "", price: "6000", imageUrl: "", category: "sandwiches" },
-  { name: { en: "Chicken Bread Sandwich", kr: "ساندویچی  مریشک بە نان" }, ingredients: "", price: "6000", imageUrl: "", category: "sandwiches" },
-  { name: { en: "Beef Bread Sandwich", kr: "ساندویچی گوشت بە نان" }, ingredients: "", price: "8000", imageUrl: "", category: "sandwiches" },
-  { name: { en: "Blue Chicken Sandwich", kr: "ساندویچی مریشکی بلو" }, ingredients: "", price: "9000", imageUrl: "", category: "sandwiches" },
-  { name: { en: "Blue Beef Sandwich", kr: "ساندویچی گۆشتی بلو" }, ingredients: "", price: "10000", imageUrl: "", category: "sandwiches" }
+  { name: { en: "Chicken Sandwich", kr: "ساندویچی مریشک" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/sandwiches/1.png", category: "sandwiches" },
+  { name: { en: "Chicken Cheese Sandwich", kr: "ساندویچی مریشک بە پەنیر" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/sandwiches/2.png", category: "sandwiches" },
+  { name: { en: "Beef Sandwich", kr: "ساندویچی گوشت" }, ingredients: "", price: "7000", imageUrl: "assets/img/menu/sandwiches/3.png", category: "sandwiches" },
+  { name: { en: "Beef Cheese Sandwich", kr: "ساندویچی گوشت و پەنیری" }, ingredients: "", price: "8000", imageUrl: "assets/img/menu/sandwiches/4.png", category: "sandwiches" },
+  { name: { en: "Chicken Steak Sandwich", kr: "ساندویچی ستەیکی  مریشک" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/sandwiches/5.png", category: "sandwiches" },
+  { name: { en: "Chicken Bread Sandwich", kr: "ساندویچی  مریشک بە نان" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/sandwiches/6.png", category: "sandwiches" },
+  { name: { en: "Beef Bread Sandwich", kr: "ساندویچی گوشت بە نان" }, ingredients: "", price: "8000", imageUrl: "assets/img/menu/sandwiches/7.png", category: "sandwiches" },
+  { name: { en: "Blue Chicken Sandwich", kr: "ساندویچی مریشکی بلو" }, ingredients: "", price: "9000", imageUrl: "assets/img/menu/sandwiches/8.png", category: "sandwiches" },
+  { name: { en: "Blue Beef Sandwich", kr: "ساندویچی گۆشتی بلو" }, ingredients: "", price: "10000", imageUrl: "assets/img/menu/sandwiches/9.png", category: "sandwiches" }
 ,
 
   // Burgers
 
-  { name: { en: "Beef Burger", kr: "بەرگەری گۆشت" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/burger/1.png", category: "burgers" },
-  { name: { en: "Cheese Burger", kr: "بەرگری گۆشت بە پەنیر" }, ingredients: "", price: "6000", imageUrl: "", category: "burgers" },
-  { name: { en: "Swiss Mushroom Burger", kr: "بەرگری گۆشت بە قارچک" }, ingredients: "", price: "7000", imageUrl: "", category: "burgers" },
-  { name: { en: "Blue Burger", kr: "بەرگری بلو" }, ingredients: "", price: "9000", imageUrl: "", category: "burgers" },
-  { name: { en: "Chicken Burger", kr: "بەرگری مریشک" }, ingredients: "", price: "5000", imageUrl: "", category: "burgers" },
+  { name: { en: "Beef Burger", kr: "بەرگەری گۆشت" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/burgers/1.png", category: "burgers" },
+  { name: { en: "Cheese Burger", kr: "بەرگری گۆشت بە پەنیر" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/burgers/2.png", category: "burgers" },
+  { name: { en: "Swiss Mushroom Burger", kr: "بەرگری گۆشت بە قارچک" }, ingredients: "", price: "7000", imageUrl: "assets/img/menu/burgers/3.png", category: "burgers" },
+  { name: { en: "Blue Burger", kr: "بەرگری بلو" }, ingredients: "", price: "9000", imageUrl: "assets/img/menu/burgers/4.png", category: "burgers" },
+  { name: { en: "Chicken Burger", kr: "بەرگری مریشک" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/burgers/5.png", category: "burgers" },
 
   // Salads
   { name: { en: "Chicken Salad", kr: "زەڵاتەی مریشک" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/salads/1.png", category: "salads" },

@@ -190,21 +190,21 @@ const menuItems = [
 
   // Burgers
 
-  { name: { en: "Beef Burger", kr: "بەرگەری گۆشت" }, ingredients: "", price: "5000", imageUrl: "", category: "burgers" },
+  { name: { en: "Beef Burger", kr: "بەرگەری گۆشت" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/burger/1.png", category: "burgers" },
   { name: { en: "Cheese Burger", kr: "بەرگری گۆشت بە پەنیر" }, ingredients: "", price: "6000", imageUrl: "", category: "burgers" },
   { name: { en: "Swiss Mushroom Burger", kr: "بەرگری گۆشت بە قارچک" }, ingredients: "", price: "7000", imageUrl: "", category: "burgers" },
   { name: { en: "Blue Burger", kr: "بەرگری بلو" }, ingredients: "", price: "9000", imageUrl: "", category: "burgers" },
   { name: { en: "Chicken Burger", kr: "بەرگری مریشک" }, ingredients: "", price: "5000", imageUrl: "", category: "burgers" },
 
   // Salads
-  { name: { en: "Chicken Salad", kr: "زەڵاتەی مریشک" }, ingredients: "", price: "6000", imageUrl: "", category: "salads" },
-  { name: { en: "Beef Salad", kr: "زەڵاتەی گۆشت" }, ingredients: "", price: "8000", imageUrl: "", category: "salads" },
-  { name: { en: "Caesar Salad", kr: "زەڵاتەی سێزەر" }, ingredients: "", price: "7000", imageUrl: "", category: "salads" },
-  { name: { en: "Steak Salad", kr: "زەڵاتەی ستەیکی مریشک" }, ingredients: "", price: "6000", imageUrl: "", category: "salads" },
-  { name: { en: "Tuna Salad", kr: "زەڵاتەی تونا" }, ingredients: "", price: "6000", imageUrl: "", category: "salads" },
-  { name: { en: "Greek Salad", kr: "زەڵاتەی یۆنانی" }, ingredients: "", price: "5000", imageUrl: "", category: "salads" },
-  { name: { en: "Fattoush Salad", kr: "زەڵاتەی فەتووش" }, ingredients: "", price: "5000", imageUrl: "", category: "salads" },
-  { name: { en: "Blue Special Salad", kr: "زەڵاتەی تایبەتی بلو" }, ingredients: "", price: "6000", imageUrl: "", category: "salads" }
+  { name: { en: "Chicken Salad", kr: "زەڵاتەی مریشک" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/salads/1.png", category: "salads" },
+  { name: { en: "Beef Salad", kr: "زەڵاتەی گۆشت" }, ingredients: "", price: "8000", imageUrl: "assets/img/menu/salads/2.png", category: "salads" },
+  { name: { en: "Caesar Salad", kr: "زەڵاتەی سێزەر" }, ingredients: "", price: "7000", imageUrl: "assets/img/menu/salads/3.png", category: "salads" },
+  { name: { en: "Steak Salad", kr: "زەڵاتەی ستەیکی مریشک" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/salads/4.png", category: "salads" },
+  { name: { en: "Tuna Salad", kr: "زەڵاتەی تونا" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/salads/5.png", category: "salads" },
+  { name: { en: "Greek Salad", kr: "زەڵاتەی یۆنانی" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/salads/6.png", category: "salads" },
+  { name: { en: "Fattoush Salad", kr: "زەڵاتەی فەتووش" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/salads/7.png", category: "salads" },
+  { name: { en: "Blue Special Salad", kr: "زەڵاتەی تایبەتی بلو" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/salads/8.png", category: "salads" }
 ];
 
 

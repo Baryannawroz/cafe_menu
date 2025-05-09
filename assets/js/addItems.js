@@ -48,13 +48,17 @@ const menuItems = [
    
   // ICE COFFEE
 
-  { name: { en: "Iced Latte", kr: "ئایس لاتێ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/1.png", category: "ice-coffee" },
-  { name: { en: "Iced Capuccino", kr: "ئایس کەپەچینۆ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/2.png", category: "ice-coffee" },
-  { name: { en: "Iced Mokachino", kr: "ئایس مۆکچینۆ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/3.png", category: "ice-coffee" },
-  { name: { en: "Iced Crema Milk", kr: "ئایس کرێما مێڵک" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/4.png", category: "ice-coffee" },
-  { name: { en: "Iced Chocolate", kr: "ئایس چۆکلێت" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/5.png", category: "ice-coffee" },
-  { name: { en: "Iced Americano", kr: "ئایس ئەمریکانۆ" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/6.png", category: "ice-coffee" },
-  { name: { en: "Frappuccino", kr: "فراپەچینۆ" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/7.png", category: "ice-coffee" },
+  { name: { en: "Iced Latte", kr: "ئایس لاتێ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/ice_coffee/1.png", category: "ice-coffee" },
+  { name: { en: "Iced Cappuccino", kr: "ئایس کەپەچینۆ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/ice_coffee/2.png", category: "ice-coffee" },
+  { name: { en: "Iced Mochachino", kr: "ئایس مۆکاچینۆ" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/ice_coffee/3.png", category: "ice-coffee" },
+  { name: { en: "Iced Crema Milk", kr: "ئایس کرێما مێڵک" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/ice_coffee/4.png", category: "ice-coffee" },
+  { name: { en: "Iced Chocolate", kr: "ئایس چۆکلێت" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/ice_coffee/5.png", category: "ice-coffee" },
+  { name: { en: "Iced Americano", kr: "ئایس ئەمریکانۆ" }, ingredients: "", price: "4000", imageUrl: "assets/img/menu/ice_coffee/6.png", category: "ice-coffee" },
+  { name: { en: "Frappuccino", kr: "فراپەچینۆ" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/ice_coffee/7.png", category: "ice-coffee" },
+  { name: { en: "Iced Matcha", kr: "ئایس ماچا" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/ice_coffee/8.png", category: "ice-coffee" },
+  { name: { en: "Iced Pumpkin Spice latte", kr: "ئایس پەمپکین سپایس لایێ" }, ingredients: "", price: "7000", imageUrl: "assets/img/menu/ice_coffee/9.png", category: "ice-coffee" },
+  { name: { en: "Cold Brew(shot)", kr: "کۆڵد بریو(شۆت)" }, ingredients: "", price: "2500", imageUrl: "assets/img/menu/ice_coffee/10.png", category: "ice-coffee" },
+  { name: { en: "Cold Brew", kr: "کۆڵد بریو" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/ice_coffee/11.png", category: "ice-coffee" },
 
   // milk shake
 

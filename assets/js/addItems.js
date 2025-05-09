@@ -25,15 +25,15 @@ const hotDrinks = [
 const categories = [
 
 
+  { name: { en: 'Coffee', kr: 'قاوە' }, target: 'menu-coffee' },
   { name: { en: 'Ice Coffee', kr: 'ئایس کۆفی' }, target: 'menu-ice-coffee' },
   { name: { en: 'Milk Shakes', kr: 'میلک شەیک' }, target: 'menu-milk-shakes' },
-  { name: { en: 'Desserts', kr: 'شیرینی' }, target: 'menu-desserts' },
+  { name: { en: 'Frappes', kr: 'فراپێ' }, target: 'menu-frappes' },
+  { name: { en: 'Mocktail', kr: 'مۆکتێل' }, target: 'menu-mocktail' },
   { name: { en: 'Fresh Juices', kr: 'ئاوی میوەی فرێش' }, target: 'menu-fresh-juices' },
   { name: { en: 'Mojito', kr: 'مۆهیتۆ' }, target: 'menu-mojito' },
   { name: { en: 'Soft Drinks', kr: 'خواردنەوەکان' }, target: 'menu-soft-drinks' },
-  { name: { en: 'Frappes', kr: 'فراپێ' }, target: 'menu-frappes' },
-  { name: { en: 'Mocktail', kr: 'مۆکتێل' }, target: 'menu-mocktail' },
-  { name: { en: 'Coffee', kr: 'قاوە' }, target: 'menu-coffee' },
+  { name: { en: 'Desserts', kr: 'شیرینی' }, target: 'menu-desserts' },
   { name: { en: 'Main Dishes', kr: 'ژەمی سەرەکی' }, target: 'menu-main-dishes' },
   { name: { en: 'Sandwiches', kr: 'ساندویجەکان' }, target: 'menu-sandwiches' },
   { name: { en: 'Burgers', kr: 'بەرگەرەکان' }, target: 'menu-burgers' },
@@ -202,7 +202,7 @@ const menuItems = [
   { name: { en: "Tuna Salad", kr: "زەڵاتەی تونا" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/salads/5.png", category: "salads" },
   { name: { en: "Greek Salad", kr: "زەڵاتەی یۆنانی" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/salads/6.png", category: "salads" },
   { name: { en: "Fattoush Salad", kr: "زەڵاتەی فەتووش" }, ingredients: "", price: "5000", imageUrl: "assets/img/menu/salads/7.png", category: "salads" },
-  { name: { en: "Blue Special Salad", kr: "زەڵاتەی تایبەتی بلو" }, ingredients: "", price: "6000", imageUrl: "assets/img/menu/salads/8.png", category: "salads" }
+  { name: { en: "Blue Special Salad", kr: "زەڵاتەی تایبەتی بلو" }, ingredients: "", price: "8000", imageUrl: "assets/img/menu/salads/8.png", category: "salads" }
 ];
 
 

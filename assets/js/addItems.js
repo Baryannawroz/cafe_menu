@@ -277,7 +277,7 @@ function addMenuItem(name, ingredients, price, imageUrl, category) {
     
     menuItem.innerHTML = `
       <a href="${imageUrl}" class="glightbox">
-        <img src="${imageUrl}" class="menu-img img-fluid" alt="">
+        <img src="${imageUrl}" loading="lazy" class="menu-img img-fluid" alt="">
       </a>
       <h4>${name[lag]}</h4>
       <p class="ingredients">${ingredients}</p>

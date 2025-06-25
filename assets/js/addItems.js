@@ -273,7 +273,7 @@ function addMenuItem(name, ingredients, price, imageUrl, category) {
     const menuContainer = document.getElementById(category);
     
     const menuItem = document.createElement('div');
-    menuItem.classList.add('col-4', 'menu-item',);
+    menuItem.classList.add('col-6', 'menu-item',);
     
     menuItem.innerHTML = `
       <a href="${imageUrl}" class="glightbox">

@@ -269,23 +269,24 @@ hotDrinks.forEach(drink => {
 
 
 function addMenuItem(name, ingredients, price, imageUrl, category) {
-      
-    const menuContainer = document.getElementById(category);
-    
-    const menuItem = document.createElement('div');
-    menuItem.classList.add('col-6', 'menu-item',);
-    
-    menuItem.innerHTML = `
-      <a href="${imageUrl}" class="glightbox">
-        <img src="${imageUrl}" loading="lazy" class="menu-img img-fluid" alt="">
-      </a>
-      <h4>${name[lag]}</h4>
-      <p class="ingredients">${ingredients}</p>
-      <p class="price">${price}</p>
-    `;
-    
-    menuContainer.appendChild(menuItem);
-  }
+  const menuContainer = document.getElementById(category);
+  if (!menuContainer) return; // Avoid errors if category ID is not found
+
+  const menuItem = document.createElement('div');
+  menuItem.classList.add('col-6', 'menu-item');
+
+  menuItem.innerHTML = `
+    <a href="${imageUrl}" class="glightbox">
+      <img src="${imageUrl}" style="width: 100%;" loading="lazy" class="menu-img img-fluid" alt="${name?.en || 'Menu Item'}">
+    </a>
+    <h5>${name[lag]}</h5>
+    <p class="ingredients">${ingredients}</p>
+    <p class="price">${price}</p>
+  `;
+
+  menuContainer.appendChild(menuItem);
+}
+
 
   // Loop through each item and add it to the page
   menuItems.forEach(item => {
